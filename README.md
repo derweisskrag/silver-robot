@@ -1,6 +1,9 @@
 # My toolkit
 
-|> Please, notice that it will be updated soon, as the Spring Semester ended, I learned a large number of features.
+
+> Please note that it will be updated soon. Since the Spring Semester has ended, I have learned a large number of new features.
+
+
 
 ## How to run Rust code:
 
