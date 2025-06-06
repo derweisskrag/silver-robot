@@ -42,7 +42,11 @@ Because I did not have any tests - it is not any app. It is just code for you to
 
 ## Rust-inspired code:
 
-```
+> It is not finished. However, it does contain the code I showcased here:
+
+You can download the package (Python): [here](https://test.pypi.org/project/tomodachi/)
+
+```py
 from functools import cached_property
 from tomodachi_core.common_types.result import Result, Ok, Err, result_wrapper
 import pandas as pd
@@ -79,7 +83,7 @@ class Service:
 
 which then helps us
 
-```
+```py
 class PandasService(Service):
     def __init__(self, path: str = "") -> None:
         super().__init__(path)
