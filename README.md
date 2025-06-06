@@ -46,6 +46,8 @@ Because I did not have any tests - it is not any app. It is just code for you to
 
 You can download the package (Python): [here](https://test.pypi.org/project/tomodachi/)
 
+### Code
+
 ```py
 from functools import cached_property
 from tomodachi_core.common_types.result import Result, Ok, Err, result_wrapper
@@ -98,3 +100,9 @@ class PandasService(Service):
             case Err(error=error):
                 return Err(error=error)
 ```
+
+### 🦀 Why Python code here looks like Rust
+
+I’m experimenting with applying Rust’s functional programming idioms (fold, map, filter, and explicit Result types) in Python to make my data handling more robust and readable. This helps me practice cross-language thinking and learn Rust concepts deeply. Feel free to check your own Rust repo to see how similar patterns can apply!
+
+> Take a look at Rust open source: Some (Option<T> - located in library/core/src/ops/function.rs) got so many useful functionalities. I cannot ignore that!
