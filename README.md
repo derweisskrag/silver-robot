@@ -105,4 +105,4 @@ class PandasService(Service):
 
 I’m experimenting with applying Rust’s functional programming idioms (fold, map, filter, and explicit Result types) in Python to make my data handling more robust and readable. This helps me practice cross-language thinking and learn Rust concepts deeply. Feel free to check your own Rust repo to see how similar patterns can apply!
 
-> Take a look at Rust open source: Some (Option<T> - located in [library/core/src/ops/function.rs](https://github.com/rust-lang/rust/blob/master/library/core/src/option.rs)) got so many useful functionalities. I cannot ignore that!
+> Take a look at Rust open source: Some (Option<T> - located in [here](https://github.com/rust-lang/rust/blob/master/library/core/src/option.rs)) got so many useful functionalities. I cannot ignore that!
